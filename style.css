@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=MedievalSharp);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Bebas Neue';
+}
+
+.titulo {
+    text-align: center;
+    font-size: 90px;
+    padding: 50px;
+    margin: 0px;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.naveg {
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 50px;
+    font-size: 25px;    
+}
+
+.naveg a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin-right: 25px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    overflow: hidden;
+    transition: transform 1s, filter 0.3s;
+    
+}
+
+.image:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+    margin: 1px;
+}
+
+
+.Galeria1, .Galeria2, .Galeria3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    
+}
+
+.Galeria1 a, .Galeria2 a, .Galeria3 a {
+    display: block;
+    margin: 2px;
+    margin-top: 1px;
+}
+
+
+footer {
+    padding: 30px;
+    text-align: center; 
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    overflow: hidden;
+    text-decoration: none; 
+    color: antiquewhite;
+    margin: 15px;
+    
+}
+
+nav i {
+    margin-right: 5px;
+}
